@@ -10,7 +10,7 @@ class plgButtonPdfPlugin extends JPlugin
         $height = $this->params->get('height');
         $label = "Insert PDF";
 
-        $scriptUrl = "../plugins/editors-xtd/pdfplugin/pdfview.php";
+        $scriptUrl = "index.php?option=com_media&amp;view=pdfList&amp;tmpl=component&amp;folder=";
 
         $button = new JObject();
         $button->modal = true;
